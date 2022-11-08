@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046E51FF291A9BB3008C8007 /* MoveProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E51FE291A9BB3008C8007 /* MoveProtocol.swift */; };
+		046E5201291A9C34008C8007 /* EatProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E5200291A9C34008C8007 /* EatProtocol.swift */; };
+		046E5203291A9CAB008C8007 /* DeathProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E5202291A9CAB008C8007 /* DeathProtocol.swift */; };
+		046E5206291A9D74008C8007 /* SnakeStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E5205291A9D74008C8007 /* SnakeStruct.swift */; };
 		04D482CD29186F1D006277E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D482CC29186F1D006277E6 /* AppDelegate.swift */; };
 		04D482CF29186F1D006277E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D482CE29186F1D006277E6 /* SceneDelegate.swift */; };
 		04D482D129186F1D006277E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D482D029186F1D006277E6 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		046E51FE291A9BB3008C8007 /* MoveProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveProtocol.swift; sourceTree = "<group>"; };
+		046E5200291A9C34008C8007 /* EatProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatProtocol.swift; sourceTree = "<group>"; };
+		046E5202291A9CAB008C8007 /* DeathProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathProtocol.swift; sourceTree = "<group>"; };
+		046E5205291A9D74008C8007 /* SnakeStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeStruct.swift; sourceTree = "<group>"; };
 		04D482C929186F1D006277E6 /* homework4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homework4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D482CC29186F1D006277E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D482CE29186F1D006277E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046E51FD291A9B87008C8007 /* SnakeProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				046E51FE291A9BB3008C8007 /* MoveProtocol.swift */,
+				046E5200291A9C34008C8007 /* EatProtocol.swift */,
+				046E5202291A9CAB008C8007 /* DeathProtocol.swift */,
+			);
+			path = SnakeProtocols;
+			sourceTree = "<group>";
+		};
+		046E5204291A9D58008C8007 /* SnakeStruct */ = {
+			isa = PBXGroup;
+			children = (
+				046E5205291A9D74008C8007 /* SnakeStruct.swift */,
+			);
+			path = SnakeStruct;
+			sourceTree = "<group>";
+		};
 		04D482C029186F1D006277E6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +82,8 @@
 		04D482CB29186F1D006277E6 /* homework4 */ = {
 			isa = PBXGroup;
 			children = (
+				046E5204291A9D58008C8007 /* SnakeStruct */,
+				046E51FD291A9B87008C8007 /* SnakeProtocols */,
 				04D482CC29186F1D006277E6 /* AppDelegate.swift */,
 				04D482CE29186F1D006277E6 /* SceneDelegate.swift */,
 				04D482D029186F1D006277E6 /* ViewController.swift */,
@@ -138,8 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046E5201291A9C34008C8007 /* EatProtocol.swift in Sources */,
 				04D482D129186F1D006277E6 /* ViewController.swift in Sources */,
+				046E5203291A9CAB008C8007 /* DeathProtocol.swift in Sources */,
+				046E5206291A9D74008C8007 /* SnakeStruct.swift in Sources */,
 				04D482CD29186F1D006277E6 /* AppDelegate.swift in Sources */,
+				046E51FF291A9BB3008C8007 /* MoveProtocol.swift in Sources */,
 				04D482CF29186F1D006277E6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
